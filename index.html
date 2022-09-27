@@ -15,10 +15,10 @@
         <h1>Calcule seu IMC</h1>
         <form id="formulario">
           <label for="peso">Peso</label>
-          <input type="text" class="peso" name="peso">
+          <input type="text" class="peso" name="peso" max="300" min="0" placeholder="Ex: 76">
           <span id="erropeso"></span>
           <label for="altura">Altura (m)</label>
-          <input type="text" class="altura" name="altura">
+          <input type="text" class="altura" name="altura" max="3" min="0" placeholder="Ex: 1.73">
           <span id="erroaltura"></span>
           <button type="button" onclick="imc()">Enviar</button>
         </form>

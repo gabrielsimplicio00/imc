@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   outline: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -31,8 +32,8 @@ form label.altura{
 }
 
 form input {
-  font-size: 24px;
-  height: 50px;
+  font-size: 20px;
+  height: 35px;
   padding: 0 20px;
 }
 
@@ -41,12 +42,14 @@ form input:focus {
 }
 
 form button {
+  width: 20%;
   border: none;
+  border-radius: 5px;
   background: rgb(1, 97, 153);
   color: rgb(255, 255, 255);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  height: 50px;
+  height: 35px;
   cursor: pointer;
   margin-top: 30px;
 }
